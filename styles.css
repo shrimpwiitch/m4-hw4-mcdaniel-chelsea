@@ -1,0 +1,45 @@
+h1 {
+    font-size: 40px;
+    color:blue;
+}
+nav {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:red;
+}
+#about p {
+    display:flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+#about h2 {
+    display:flex;
+    background-color: lightyellow;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: darkblue;
+    margin: 0;
+}
+#works h2,
+#works p {
+    text-align: center;
+}
+#works h2 {
+    background-color: lightyellow;
+    font-size: 30px;
+    color: darkblue;
+}
+div.painting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: brown;
+}
+div .painting p {
+    background-color: lightyellow;
+}
